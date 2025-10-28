@@ -84,7 +84,7 @@ The backend uses a pre-trained **Support Vector Machine (SVM)** model (`svc.pick
         docker pull samad25/apple-quality-prediction-flask:latest
 2. **Run the Prebuilt Docker Image:**
     ```bash            
-        docker run -p 5000:5000 docker pull samad25/apple-quality-prediction-flask:latest
+        docker run -p 5000:5000 samad25/apple-quality-prediction-flask:latest
 3. **Run the application:**
     ```bash
           http://localhost:5000/
